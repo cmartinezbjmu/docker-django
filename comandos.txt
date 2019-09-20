@@ -1,0 +1,8 @@
+# Construir imagen en docker
+Navegar hasta el proyecto
+docker build .
+
+docker-compose build
+
+# Iniciar Celery
+celery -A app worker -l info
